@@ -1,8 +1,43 @@
-# React + Vite
+# Aurika
+This is a React application that genrate a invoce convert it into PDF.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
 
-Currently, two official plugins are available:
+Accept Signature
+Downlodable PDF
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+
+* React
+* Tailwind CSS
+* Axios
+* jspdf
+* html2canvas
+
+## Local Setup
+
+Follow these steps to run the application locally:
+
+#### Clone the repository:
+
+```bash
+git clone https://github.com/thisissushant/aurika
+```
+#### Navigate to the project directory:
+
+```bash
+cd aurika
+```
+#### Install dependencies:
+
+```bash
+npm install
+```
+#### Start the development server:
+
+```bash
+npm run dev
+```
+
+## Live Project
+[Click here to view live app](https://aurika.netlify.app/)
