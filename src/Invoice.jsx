@@ -1,4 +1,4 @@
-// src/components/InvoiceForm.jsx
+
 import { useState } from "react";
 import PropTypes from "prop-types";
 
@@ -64,7 +64,7 @@ const InvoiceForm = ({ onGenerate }) => {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-4 p-4 bg-gray-100">
-      {/* Seller Details */}
+    
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div>
           <label>Seller Name</label>
@@ -148,7 +148,7 @@ const InvoiceForm = ({ onGenerate }) => {
         </div>
       </div>
 
-      {/* Billing Details */}
+     
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div>
           <label>Billing Name</label>
@@ -212,7 +212,6 @@ const InvoiceForm = ({ onGenerate }) => {
         </div>
       </div>
 
-      {/* Shipping Details */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div>
           <label>Shipping Name</label>
@@ -276,7 +275,7 @@ const InvoiceForm = ({ onGenerate }) => {
         </div>
       </div>
 
-      {/* Order Details */}
+     
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div>
           <label>Order No</label>
@@ -300,7 +299,7 @@ const InvoiceForm = ({ onGenerate }) => {
         </div>
       </div>
 
-      {/* Invoice Details */}
+   
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div>
           <label>Invoice No</label>
@@ -346,7 +345,7 @@ const InvoiceForm = ({ onGenerate }) => {
         </div>
       </div>
 
-      {/* Item Details */}
+
       <div>
         <h3 className="text-lg font-semibold">Item Details</h3>
         {formData.items.map((item, index) => (
@@ -402,7 +401,7 @@ const InvoiceForm = ({ onGenerate }) => {
         </button>
       </div>
 
-      {/* Signature */}
+     
       <div>
         <label>Signature Image</label>
         <input
