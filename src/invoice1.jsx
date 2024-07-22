@@ -1,4 +1,4 @@
-// src/components/Invoice.jsx
+
 import {} from "react";
 import jsPDF from "jspdf";
 import html2canvas from "html2canvas";
@@ -119,7 +119,7 @@ const Invoice = ({ data }) => {
       </div>
       <div className="mt-4">
         <h3 className="font-semibold">Total</h3>
-        <p>Amount in words: {/* Convert total amount to words */}</p>
+        <p>Amount in words: </p>
       </div>
       <div className="mt-4">
         <h3 className="font-semibold">Signature</h3>
